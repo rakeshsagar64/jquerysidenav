@@ -21,12 +21,12 @@
             $("#sideNav").hide();
             $("#menu").mouseenter (function(){
                 $("#sideNav").show();
-                $("#sideNav").addClass("bounceInLeft").removeClass("bounceOutLeft");
+                $("#sideNav").addClass("slideInLeft").removeClass("slideOutLeft");
                 $(this).hide();
       
             })
            $("#close").mouseleave(function(){
-               $("#sideNav").addClass("bounceOutLeft").removeClass("bounceInLeft");
+               $("#sideNav").addClass("slideOutLeft").removeClass("slideInLeft");
                $("#menu").show();
            });
         });
